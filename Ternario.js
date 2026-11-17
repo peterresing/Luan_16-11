@@ -15,7 +15,7 @@ console.log(statusNota(7));
 
 //Atividade 2.3
 const textoBotao = (logado) => {
-   let casa = logado >= (true, false) ? "Entrar" : "Sair";
+   let casa = logado >= true ? "Entrar" : "Sair";
    return casa
 }
-console.log(textoBotao(false));
+console.log(textoBotao(true));
